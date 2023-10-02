@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Young+Serif&display=swap');
+
+body{
+    background-color: #D8E8F2;
+    font-family: 'Young Serif', serif;
+    color: #212426;
+}
+p{
+    line-height: 1.4em;
+}
+.container{
+    max-width:960px;
+    margin:0 auto 0 auto;
+}
+ul,p{
+    font-family: 'Quicksand', sans-serif;
+
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: double;
+}
