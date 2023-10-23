@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concerts i've been to</title>
+    <link rel="stylesheet" href="CSS/sshtml.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+
+    <nav id="skip-nav">
+        <a href="#main-content">Skip to Main Content</a>
+    </nav>
+
+    <header>
+        <h1>Concerts I have been to</h1>
+    </header>
+
+    <main id="main-content">
+
+        <form id="fishForm">
+            <label for="name">Concert: </label>
+            <input type="text" id="name" name="name" required aria-required="true">
+            <label for="opinion">Was it good?:</label>
+            <input type="text" id="opinion" name="opinion" required aria-required="true">
+            <input type="submit" value="Submit">
+        </form>
+
+        <table id="fishTable">
+            <caption>Concert data</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Concert <span aria-hidden="true" class="material-icons">music_note</span></th>
+                    <th scope="col">Was it good? <span aria-hidden="true" class="material-icons">mood</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jack Johnson</td>
+                    <td>The best</td>
+                </tr>
+                <tr>
+                    <td>Rush</td>
+                    <td>I liked the drum parts</td>
+                </tr>
+                <tr>
+                    <td>Lincon Park</td>
+                    <td>Very hype, the people were kinda scary </td>
+                </tr>
+                <tr>
+                    <td>Post Malone</td>
+                    <td>Wasn't very famous yet, extra points </td>
+                </tr>
+                <tr>
+                    <td>Travis Scott</td>
+                    <td>Worst one on the list</td>
+                </tr>
+                <tr>
+                    <td>The Motet</td>
+                    <td>Very Funky </td>
+                </tr>
+                <tr>
+                    <td>Hipocampus</td>
+                    <td>The girls were very pretty </td>
+                </tr>
+                <tr>
+                    <td>Jawny</td>
+                    <td>@ Meow wolf, cool set </td>
+                </tr>
+                <tr>
+                    <td>Lucas Nelson & the Promise of the Real</td>
+                    <td>every one was old but i enjoyed the music </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+
+</body>
+<script src="JS/sshtml.js"></script>
+
+</html>
