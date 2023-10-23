@@ -6,19 +6,19 @@ h1, h2, h3, h4, h5, h6 {
   
   p {
     font-family: 'Playful-display', sans-serif;
-    color: #003b49;
+    color: #000000;
   }
   
   body {
-    background-color: #be84a3;
+    background-color: #ffffff;
   }
   
   #skip-nav a {
     position: absolute;
     top: -40px;
     left: 0;
-    background-color: #be84a3;
-    color: #be84a3;
+    background-color: #ffffff;
+    color: #000000;
     padding: 10px;
     z-index: 100;
   }
