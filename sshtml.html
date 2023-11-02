@@ -13,34 +13,43 @@
 </head>
 
 <body>
-
-    <nav id="skip-nav">
-        <a href="#main-content">Skip to Main Content</a>
-    </nav>
-
     <header>
         <h1>Concerts I have been to</h1>
+        <time datetime="2023-10-25">October 25, 2023</time>
     </header>
 
+    <nav id="skip-nav">
+        <h2>Main Navigation</h2>
+        <a href="#main-content">Skip to Main Content</a>
+    </nav>
     <main id="main-content">
-
-        <form id="fishForm">
-            <label for="name">Concert: </label>
-            <input type="text" id="name" name="name" required aria-required="true">
-            <label for="opinion">Was it good?:</label>
-            <input type="text" id="opinion" name="opinion" required aria-required="true">
-            <input type="submit" value="Submit">
-        </form>
-
-        <table id="fishTable">
-            <caption>Concert data</caption>
-            <thead>
-                <tr>
-                    <th scope="col">Concert <span aria-hidden="true" class="material-icons">music_note</span></th>
-                    <th scope="col">Was it good? <span aria-hidden="true" class="material-icons">mood</span></th>
-                </tr>
-            </thead>
-            <tbody>
+            <form id="concertForm">
+                    <em>
+                        <label for="name">Concert: </label>
+                    </em>
+                <input type="text" id="name" name="name" required aria-required="true">
+                <em>
+                    <label for="opinion">Opinion:</label>
+                </em>
+                <input type="text" id="opinion" name="opinion" required aria-required="true">
+                <input type="submit" value="Submit">
+            </form>
+                <details>
+                    <summary>
+                        An updatable list of all the concerts I have attended, along with annecdotes about my experience
+                    </summary>
+                </details>
+        <section>
+            <h3>Data:</h3>
+            <table id="concertTable">
+                <thead>
+                    <tr>
+                        <th scope="col">Concert <span aria-hidden="true" class="material-icons">music_note</span></th>
+    
+                        <th scope="col">Was it good? <span aria-hidden="true" class="material-icons">mood</span></th>
+                    </tr>
+                </thead>
+             <tbody>
                 <tr>
                     <td>Jack Johnson</td>
                     <td>The best</td>
@@ -77,10 +86,17 @@
                     <td>Lucas Nelson & the Promise of the Real</td>
                     <td>every one was old but i enjoyed the music </td>
                 </tr>
-            </tbody>
-        </table>
-
+              </tbody>
+            </table>
+        </section>
     </main>
+    <footer>
+        <p> Site by Wolfgang Loudenburg
+        <address>
+          <a href="mailto:wolo8873@colorado.edu"> wolo8873@colorado.edu</a>
+        </address>
+        <small>&copy; 2023</small>
+      </footer>
 
     <script src="JS/sshtml.js"></script>
 </body>

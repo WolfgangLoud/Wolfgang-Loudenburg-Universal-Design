@@ -1,9 +1,9 @@
 
-document.getElementById('fishForm').addEventListener('submit', function(e) {
+document.getElementById('concertForm').addEventListener('submit', function(e) {
     e.preventDefault();
     var name = document.getElementById('name').value;
     var opinion = document.getElementById('opinion').value;
-    var tbody = document.getElementById('fishTable').getElementsByTagName('tbody')[0];
+    var tbody = document.getElementById('concertTable').getElementsByTagName('tbody')[0];
     var newRow = tbody.insertRow();
     var fishCell = newRow.insertCell();
     var opinionCell = newRow.insertCell();
