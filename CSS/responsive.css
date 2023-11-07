@@ -15,18 +15,29 @@ body{
 h1,
 h2,
 h3 {
+  font-family: 'Roboto', serif;
   padding: .2em 0;
 }
 
+
 p{
+  font-family: 'Playful-display', sans-serif;
   padding: .8em 0;
   line-height: 1.8em;
+}
+aside{
+  text-align: center;
+}
+aside img{
+  position: relative;
+  max-width: 230px;
+  padding: 1em .5em 1em 1em;
 }
 
 h2 {font-size: 1.25em;}
 
 header{
-  color: #F23030;
+  color: #D7D9D9;
 
 }
 
