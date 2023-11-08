@@ -37,10 +37,14 @@ aside img{
 h2 {font-size: 1.25em;}
 
 header{
-  color: #D7D9D9;
+  color: #f6f9f9;
 
 }
-
+nav h2{
+  text-align: center;
+  font-size: smaller;
+  color: #38637d;
+}
 nav ul{
     list-style-type: disc;
     margin-block-start: 1em;
