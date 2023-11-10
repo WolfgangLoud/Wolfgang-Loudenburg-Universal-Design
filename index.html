@@ -6,23 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Universal design 2023</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="CSS/index.css">
 </head>
+
 <body>
-   <div class="container--main"> 
-    <h1>Wolfgang Loudenburg</h1>
-    <nav>
-        <ul>
-            <li>
-                <a href="https://wolfgangloudenburg.me/Wolfgang-Loudenburg-Universal-Design/wiki">Lab #2</a>
-                <a href="https://wolfgangloudenburg.me/Wolfgang-Loudenburg-Universal-Design/sshtml">Lab #3</a>
-                <a href="https://wolfgangloudenburg.me/Wolfgang-Loudenburg-Universal-Design/responsive">Lab #4</a>
-            </li>
-        </ul>
-    </nav>
-    <h3>Universal Design 2023</h3>
-    <h2 id="aboutme">About me...</h2>
-     <p>I'm just a guy, a super normal guy. There is nothing weird about me beacuse I am a super normal guy. </p>  
-   </div>  
+   <div class="container" id="main-content">
+        <header>
+            <h1>Wolfgang Loudenburg</h1>
+        </header>
+         <nav>
+            <div id="skip-nav">
+                <h2>Main Navigation</h2>
+                <a href="#main-content">Skip to Main Content</a>
+            </div>
+                <ul>
+                    <li><a href="https://wolfgangloudenburg.me/Wolfgang-Loudenburg-Universal-Design/wiki">Lab #2</a></li>
+                    <li><a href="https://wolfgangloudenburg.me/Wolfgang-Loudenburg-Universal-Design/sshtml">Lab #3</a></li>
+                    <li><a href="https://wolfgangloudenburg.me/Wolfgang-Loudenburg-Universal-Design/responsive">Lab #4</a></li>
+                </ul>
+          </nav>
+     <main>
+        <h3 id="aboutme">About me...</h3>
+        <img src="img/headshot.jpg" alt="a proffesional headshot">
+        <p>I'm a student at CU Boulder, studying creative technology and design, with both front end and back end development skills. Spending as much time as possible in the great outdoors.</p>
+        <p>In the winter you can find me throughout the Rocky Mountains, crushing powder pillows whenever possible. In the Summer I'm often guiding groups of friends and strangers a like through gnarly rapids, always chasing the greasiest of lines.</p>  
+     </main>
+        <aside id="aside1">
+            <h3>Credentials</h3>
+            <ul>
+                <li>Profeciency in:</li>
+                    <ul id="list2">
+                      <li>Python</li>
+                      <li>Photoshop</li>
+                      <li>CSS</li>
+                      <li>HTML</li>
+                      <li>JavaScript</li>
+                    </ul>
+                <li>Fluent German</li>
+                <li>Swift Water Certified</li>
+                <li>CPR Certification</li>
+            </ul>
+        </aside>
+        <aside id="aside2">
+            <h3>Highlight Zone</h3>
+        </aside>
+        <aside id="aside3">
+            <h3>Photo Gallery</h3>
+        </aside>
+        <footer>
+            <h4>designed by Wolfgang</h4>
+        </footer>
+    </div>
 </body>
 </html>
