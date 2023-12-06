@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/icon?family=Materail+Icons');
 body {
-    background-color: #F2F2F2;
+    background-color: #44a26e;
     font: 1.2em / 1.2;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-size: 100vw;
@@ -22,13 +22,9 @@ body {
       padding-inline-start: 0px;
   }
   
-  nav ul li{
-    display: block;
-    background: #624973;
-  }
   
   nav ul li a{
-    color: #F2F2F2;
+    color: #002345;
   }
 
   nav ul li a:hover{
@@ -60,25 +56,24 @@ main img{
 }
 
 main h3,
-#aside1 h3,
-#aside2 h3{
+#resources h3{
   font-size: 150%;
-  color:#023047;
+  color:#EDF5E1;
   font-weight: lighter;
 }
 
 main p,
-#aside1 ul,
-#aside2 p{
+#resources ul
+{
   font-size: 115%;
-  color: #ffffff;
+  color: #05386B;
 }
 
-#aside3{
+#image{
   position: center;
   font-size: 150%;
   font-weight: lighter;
-  color:#FFB703;
+  color:#05386B;
 
 }
 main p{
@@ -93,12 +88,12 @@ header{
     text-align: center;
 
     font-size: 175%;
-    color: #000000;
+    color: #ffffff;
     text-decoration-style: double;
 }
 header h2{
   position: relative;
-  color: #023047;
+  color: #EDF5E1;
   font-size: 90%;
 }
 
@@ -127,24 +122,23 @@ footer{
   grid-template-columns: 
   1fr 1fr;
   grid-template-areas: 
-  "navy navy"
-  "heady heady"
-  "mainy mainy"
-  "mainy mainy"
-  "aside1 aside3"
-  "aside1 aside3"
-  "footy  footy"
+  "nav nav"
+  "head head"
+  "why why"
+  "why why"
+  "resources image"
+  "resources image"
+  "footer   footer"
   ;
 
 }
 
-nav{grid-area: navy; background: #d7d9d900}
-header{grid-area: heady; background: #7794a600;}
-main{grid-area: mainy; background-image: linear-gradient(to top, #ffffff38, #8ecae641);}
-#aside1{grid-area: aside1; background-image: linear-gradient(to top, #ffffff38, #8ecae641);}
-#aside2{grid-area: aside2; background-image: linear-gradient(to top, #ffffff38, #8ecae641);}
-#aside3{grid-area: aside3; background-image: linear-gradient(to top, #ffffff38, #8ecae641);}
-footer{grid-area: footy; background: #d7d9d900;}
+nav{grid-area: nav; background: #d7d9d900}
+header{grid-area: head; background: #7794a600;}
+main{grid-area: why; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
+#resources{grid-area: resources; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
+#image{grid-area: image; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
+footer{grid-area: footer; background: #d7d9d900;}
 
 nav ul{
   display: flex;
@@ -163,12 +157,12 @@ nav ul li{
       grid-template-columns:
       1fr   1fr;
       grid-template-areas: 
-      "heady  heady"
-      "navy navy"
-      "mainy mainy"
-      "aside1 aside2"
-      "aside3 aside3"
-      "footy  footy";
+      "head  head"
+      "nav nav"
+      "why why"
+      "resources resources"
+      "image image"
+      "footer  footer";
     } 
 } /*end media query*/
 
@@ -180,13 +174,12 @@ and (max-width:640px) {
     grid-template-columns:
     1fr;
     grid-template-areas:
-    "heady"
-    "navy"
-    "mainy"
-    "aside1"
-    "aside2"
-    "aside3"
-    "footy";
+    "head"
+    "nav"
+    "why"
+    "resources"
+    "image"
+    "footer";
   }
   nav ul{
     text-align: center;
