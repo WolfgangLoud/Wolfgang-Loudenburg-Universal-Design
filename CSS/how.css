@@ -130,6 +130,30 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+#reff th{
+  color: #002345;
+}
+#reff a{
+  text-align: left;
+  color: #EDF5E1;
+}
+
+#reff a:hover{
+  color: #FFB703;
+}
+
 
 #W3C img{
   border-radius: 8%;
