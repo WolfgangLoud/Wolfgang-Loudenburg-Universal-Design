@@ -7,6 +7,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
   }
+
   nav h2{
     text-align: center;
     font-size: xx-small;
@@ -43,35 +44,39 @@ body {
   
 main,
 aside{
-  border: 1px black solid;
+  border-radius: 8%;
 }
 
-main img{
-  float: left;
-  position: relative;
-  max-width: 120px;
-  max-height: 250px;
-  padding: 1em 1em 3em 1em;
 
+#hands{
+  border-radius: 8%;
+  max-width: 800px;
 }
 
-main h3,
-#resources h3{
+main h3
+{
+  font-size: 150%;
+  color:#EDF5E1;
+  font-weight: lighter;
+}
+main h4{
   font-size: 150%;
   color:#EDF5E1;
   font-weight: lighter;
 }
 
 main p,
-#resources ul
+#principles ul
 {
+  text-align: left;
   font-size: 115%;
   color: #05386B;
+  padding: 0 1em;
 }
 
-#image{
+aside{
   position: center;
-  font-size: 150%;
+  font-size: 125%;
   font-weight: lighter;
   color:#05386B;
 
@@ -82,8 +87,21 @@ main ul{
   text-align: left;
 }
 
-#resources ul{
+#principles ol{
   text-align: left;
+  font-size: larger;
+  color: #EDF5E1;
+  padding: 0 13em;
+}
+#principles img{
+  max-width: 250px;
+  max-height: 300px;
+  padding: 1em 5em;
+  border-radius: 6%;
+}
+
+#W3C img{
+  border-radius: 8%;
 }
 
 header{
@@ -107,7 +125,6 @@ main{
 footer{
   text-align: center;
 }
-
 
 
 /* beggining of grid content*/
@@ -135,12 +152,12 @@ footer{
 
 }
 
-nav{grid-area: nav; background: #d7d9d900}
+nav{grid-area: nav; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
 header{grid-area: head; background: #7794a600;}
 main{grid-area: what; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
-#resources{grid-area: resources; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
-#image{grid-area: image; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
-footer{grid-area: footer; background: #d7d9d900;}
+#W3C{grid-area: resources; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
+#principles{grid-area: image; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
+footer{grid-area: footer; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
 
 nav ul{
   display: flex;

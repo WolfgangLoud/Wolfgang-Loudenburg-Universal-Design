@@ -49,10 +49,8 @@ aside{
 
 main img{
   float: left;
-  position: relative;
   max-width: 120px;
   max-height: 250px;
-  padding: 1em 1em 3em 1em;
 
 }
 
@@ -69,6 +67,7 @@ main p,
 #aside2 p{
   font-size: 115%;
   color: #ffffff;
+  padding: 1em 1em;
 }
 
 #aside3{
@@ -134,6 +133,7 @@ footer{
   ;
 
 }
+
 
 nav{grid-area: navy; background: #d7d9d900}
 header{grid-area: heady; background: #7794a600;}

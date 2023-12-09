@@ -43,40 +43,71 @@ body {
   
 main,
 aside{
-  border: 1px black solid;
+ border: 1px black solid;
+  border-radius: 6%;
 }
 
-main img{
+/*main img{
   float: left;
   position: relative;
   max-width: 120px;
   max-height: 250px;
   padding: 1em 1em 3em 1em;
 
+}*/
+
+main h3{
+  font-size: 150%;
+  color:#EDF5E1;
+  font-weight: lighter;
+}
+main h4{
+  padding: .5em 1em;
+  font-size: 100%;
+  color:#05386B
+}
+main ul{
+  list-style: none;
+}
+#imageOne{
+  float:right;
+  opacity: 80%;
 }
 
-main h3,
+#imageTwo{
+  float: left;
+  max-height: 300px;
+}
+main p,
+#resources ul
+{
+  padding: 0 1em;
+  font-size: 115%;
+  color: #05386B;
+}
+
 #resources h3{
   font-size: 150%;
   color:#EDF5E1;
   font-weight: lighter;
 }
 
-main p,
-#resources ul
-{
-  font-size: 115%;
-  color: #05386B;
-}
-
-#image{
-  position: center;
-  font-size: 150%;
+#resources ul{
+  list-style: none;
   font-weight: lighter;
-  color:#05386B;
-
 }
-main p{
+
+main img{
+max-width: 450px;
+max-height: 450px;
+height: auto;
+display: block;
+margin: 0 auto;
+padding: 1em;
+border-radius: 10%;
+}
+
+main h4{
   text-align: left;
 }
 
@@ -88,7 +119,7 @@ header{
     text-align: center;
 
     font-size: 175%;
-    color: #ffffff;
+    color: #05386B;
     text-decoration-style: double;
 }
 header h2{
@@ -98,7 +129,7 @@ header h2{
 }
 
 aside,
-main{
+main h3{
   text-align: center;
 }
 
@@ -120,25 +151,26 @@ footer{
   grid-column-gap: 20px;
   column-gap: 20px;
   grid-template-columns: 
-  1fr 1fr;
+  1fr 2fr;
   grid-template-areas: 
   "nav nav"
   "head head"
   "why why"
   "why why"
-  "resources image"
-  "resources image"
+  "why why"
+  "resources resources"
   "footer   footer"
   ;
 
 }
 
-nav{grid-area: nav; background: #d7d9d900}
+nav{grid-area: nav; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
 header{grid-area: head; background: #7794a600;}
 main{grid-area: why; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
 #resources{grid-area: resources; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
-#image{grid-area: image; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
-footer{grid-area: footer; background: #d7d9d900;}
+/*#imageOne{grid-area: imageOne;}
+#imageTwo{grid-area: imageTwo;}*/
+footer{grid-area: footer; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
 
 nav ul{
   display: flex;
