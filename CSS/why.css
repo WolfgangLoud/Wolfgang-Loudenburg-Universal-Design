@@ -37,7 +37,7 @@ body {
     font-weight: 700;
     padding: 4px;
     position: absolute;
-    transform: translateY(-300%);
+    transform: translateY(-800%);
   }
   
   
@@ -137,6 +137,10 @@ footer{
   text-align: center;
 }
 
+footer{
+  text-align: center;
+}
+
 
 
 /* beggining of grid content*/
@@ -170,7 +174,7 @@ main{grid-area: why; background-image: linear-gradient(to top, #8EE4AF, #ffffff3
 #resources{grid-area: resources; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
 /*#imageOne{grid-area: imageOne;}
 #imageTwo{grid-area: imageTwo;}*/
-footer{grid-area: footer; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
+footer{grid-area: footer;}
 
 nav ul{
   display: flex;

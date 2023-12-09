@@ -38,7 +38,7 @@ body {
     font-weight: 700;
     padding: 4px;
     position: absolute;
-    transform: translateY(-300%);
+    transform: translateY(-800%);
   }
   
   
@@ -86,6 +86,12 @@ main ul{
     list-style: none;
   text-align: left;
 }
+
+footer{
+  text-align: center;
+}
+
+
 
 #principles ol{
   text-align: left;
@@ -157,7 +163,7 @@ header{grid-area: head; background: #7794a600;}
 main{grid-area: what; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
 #W3C{grid-area: resources; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
 #principles{grid-area: image; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
-footer{grid-area: footer; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
+footer{grid-area: footer;}
 
 nav ul{
   display: flex;

@@ -38,7 +38,7 @@ body {
     font-weight: 700;
     padding: 4px;
     position: absolute;
-    transform: translateY(-300%);
+    transform: translateY(-800%);
   }
   
   
@@ -70,8 +70,12 @@ main p,
 #principles ul
 {
   text-align: left;
-  font-size: 115%;
-  color: #05386B;
+  font-size: 100%;
+  padding: 0 2em;
+}
+
+main h4{
+  text-align: left;
   padding: 0 1em;
 }
 
@@ -81,11 +85,6 @@ main h3{
   font-weight: bold;
   color:#05386B;
 
-}
-main ul{
-    color:#05386B;
-    list-style: none;
-  text-align: left;
 }
 
 #principles ol{
@@ -99,6 +98,11 @@ main ul{
   max-height: 300px;
   padding: 1em 5em;
   border-radius: 6%;
+}
+
+footer{
+  color: #002345;
+  font-weight: lighter;
 }
 
 Example
@@ -212,7 +216,7 @@ header{grid-area: head; background: #7794a600;}
 main{grid-area: what; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
 #reff{grid-area: resources; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
 #contact{grid-area: image; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
-footer{grid-area: footer; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
+footer{grid-area: footer;}
 
 nav ul{
   display: flex;
