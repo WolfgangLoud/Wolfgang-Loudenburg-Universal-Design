@@ -7,6 +7,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
   }
+
   nav h2{
     text-align: center;
     font-size: xx-small;
@@ -43,45 +44,95 @@ body {
   
 main,
 aside{
-  border: 1px black solid;
+  border-radius: 8%;
 }
 
-main img{
-  float: left;
-  position: relative;
-  max-width: 120px;
-  max-height: 250px;
-  padding: 1em 1em 3em 1em;
 
+#hands{
+  border-radius: 8%;
+  max-width: 800px;
 }
 
-main h3,
-#resources h3{
+#reff h3,
+#contact h3
+{
+  font-size: 150%;
+  color:#EDF5E1;
+  font-weight: lighter;
+}
+main h4{
   font-size: 150%;
   color:#EDF5E1;
   font-weight: lighter;
 }
 
 main p,
-#resources ul
+#principles ul
 {
+  text-align: left;
   font-size: 115%;
   color: #05386B;
+  padding: 0 1em;
 }
 
-#image{
+main h3{
   position: center;
-  font-size: 150%;
-  font-weight: lighter;
+  font-size: 125%;
+  font-weight: bold;
   color:#05386B;
 
 }
-main p{
+main ul{
+    color:#05386B;
+    list-style: none;
   text-align: left;
 }
 
-#aside1 ul{
+#principles ol{
   text-align: left;
+  font-size: larger;
+  color: #EDF5E1;
+  padding: 0 13em;
+}
+#principles img{
+  max-width: 250px;
+  max-height: 300px;
+  padding: 1em 5em;
+  border-radius: 6%;
+}
+
+Example
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 1em 2em;
+  margin-bottom: 6px; /* Add a top margin */
+
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+#W3C img{
+  border-radius: 8%;
 }
 
 header{
@@ -107,7 +158,6 @@ footer{
 }
 
 
-
 /* beggining of grid content*/
 .container{
   max-width: 1500px;
@@ -124,8 +174,8 @@ footer{
   grid-template-areas: 
   "nav nav"
   "head head"
-  "why why"
-  "why why"
+  "what what"
+  "what what"
   "resources image"
   "resources image"
   "footer   footer"
@@ -133,12 +183,12 @@ footer{
 
 }
 
-nav{grid-area: nav; background: #d7d9d900}
+nav{grid-area: nav; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
 header{grid-area: head; background: #7794a600;}
-main{grid-area: why; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
-#resources{grid-area: resources; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
-#image{grid-area: image; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
-footer{grid-area: footer; background: #d7d9d900;}
+main{grid-area: what; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
+#reff{grid-area: resources; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
+#contact{grid-area: image; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
+footer{grid-area: footer; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
 
 nav ul{
   display: flex;
@@ -159,7 +209,7 @@ nav ul li{
       grid-template-areas: 
       "head  head"
       "nav nav"
-      "why why"
+      "what what"
       "resources resources"
       "image image"
       "footer  footer";
@@ -176,7 +226,7 @@ and (max-width:640px) {
     grid-template-areas:
     "head"
     "nav"
-    "why"
+    "what"
     "resources"
     "image"
     "footer";

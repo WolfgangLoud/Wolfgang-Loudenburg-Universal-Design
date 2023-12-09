@@ -4,14 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="stylesheet" href="CSS/why.css">
+        <link rel="stylesheet" href="CSS/how.css">
     </head>
     <body>
         
 
         <div class="container" id="main-content">
             <header>
-                <h1>How To Universal Design</h1>
+                <h1>How to Universal Design</h1>
             </header>
             <nav>
                 <div id="skip-nav">
@@ -25,25 +25,36 @@
                     </ul>
             </nav>
         <main>
-            <h3 id="The steps">What we can do:</h3>
-           
-                    <p>Begin design with accesibility in mind</p>
-                    <p>Implementation of accessible design feature</p>
-                    <p>Responisvenes</p>
-                    <p>Constant Evolution</p>
-               
+            <h3 id="The Steps">The Steps...</h3>
+          
         </main>
-            <aside id="resources">
-                <h3>Resources</h3>
+            <aside id="reff">
+                <h3>Refferance projects</h3>
+               
+                </aside>
+            <aside id="contact">
+                <h3>Contact Form</h3>
+                <form action="php/action_page.php">
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
                 
-                <ul>
-                       <li></li>
-                       <li></li>
-                       <li></li>
-                </ul>
-            </aside>
-            <aside id="image">
-                <h3>Images</h3>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                      <option value="australia">Australia</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">USA</option>
+                    </select>
+                
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                </form>
+                
             </aside>
             <footer>
                 <h4>designed by Wolfgang</h4>
