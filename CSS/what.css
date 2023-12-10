@@ -42,11 +42,13 @@ body {
   }
   
   
-main,
-aside{
-  border-radius: 8%;
-}
-
+  nav,
+  main,
+  aside{
+   border: 1px black solid;
+    border-radius: 6%;
+  }
+  
 
 #hands{
   border-radius: 8%;
@@ -162,9 +164,9 @@ footer{
 
 nav{grid-area: nav; background-image: linear-gradient(to top, #4463a2, #ffffff38);}
 header{grid-area: head; background: #7794a600;}
-main{grid-area: what; background-image: linear-gradient(to top, #4463a2, #ffffff38);}
-#W3C{grid-area: resources; background-image: linear-gradient(to top, #4463a2, #ffffff38);}
-#principles{grid-area: image; background-image: linear-gradient(to top, #4463a2, #ffffff38);}
+main{grid-area: what; background: #ffffff38;}
+#W3C{grid-area: resources; background: #ffffff38;}
+#principles{grid-area: image; background: #ffffff38;}
 footer{grid-area: footer;}
 
 nav ul{
