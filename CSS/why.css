@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/icon?family=Materail+Icons');
 body {
-    background-color: #44a26e;
+    background-color: #4463a2;
     font: 1.2em / 1.2;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-size: 100vw;
@@ -58,7 +58,7 @@ aside{
 
 main h3{
   font-size: 150%;
-  color:#EDF5E1;
+  color:#05386B;
   font-weight: lighter;
 }
 main h4{
@@ -119,7 +119,7 @@ header{
     text-align: center;
 
     font-size: 175%;
-    color: #05386B;
+    color: #EDF5E1;
     text-decoration-style: double;
 }
 header h2{
@@ -139,6 +139,8 @@ footer{
 
 footer{
   text-align: center;
+  font-weight: lighter;
+  color: #EDF5E1;
 }
 
 
@@ -168,10 +170,10 @@ footer{
 
 }
 
-nav{grid-area: nav; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
+nav{grid-area: nav; background-image: linear-gradient(to top, #4463a2, #ffffff38);}
 header{grid-area: head; background: #7794a600;}
-main{grid-area: why; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
-#resources{grid-area: resources; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
+main{grid-area: why; background-image: linear-gradient(to top, #4463a2, #ffffff38);}
+#resources{grid-area: resources; background-image: linear-gradient(to top, #4463a2, #ffffff38);}
 /*#imageOne{grid-area: imageOne;}
 #imageTwo{grid-area: imageTwo;}*/
 footer{grid-area: footer;}

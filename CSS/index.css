@@ -67,13 +67,15 @@ main h3,
   font-weight: lighter;
 }
 
-main p,
-#aside1 ul,
-#aside2 p{
+main p{
   font-size: 115%;
   color: #ffffff;
   padding: 1em 3em;
-
+}
+#aside1 ul,
+#aside2 p{
+  font-size: 90%;
+  color: #ffffff;
 }
 
 #aside3{

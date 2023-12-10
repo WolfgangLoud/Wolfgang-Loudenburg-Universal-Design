@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/icon?family=Materail+Icons');
 body {
-    background-color: #44a26e;
+    background-color: #4463a2;
     font: 1.2em / 1.2;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-size: 100vw;
@@ -182,12 +182,11 @@ main{
   text-align: center;
 }
 
-aside img{
-  max-width: 25%;
-}
 
 footer{
   text-align: center;
+  font-weight: lighter;
+  color: #EDF5E1;
 }
 
 
@@ -216,11 +215,11 @@ footer{
 
 }
 
-nav{grid-area: nav; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
+nav{grid-area: nav; background-image: linear-gradient(to top, #4463a2, #ffffff38);}
 header{grid-area: head; background: #7794a600;}
-main{grid-area: what; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
-#reff{grid-area: resources; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
-#contact{grid-area: image; background-image: linear-gradient(to top, #8EE4AF, #ffffff38);}
+main{grid-area: what; background-image: linear-gradient(to top, #4463a2, #ffffff38);}
+#reff{grid-area: resources; background-image: linear-gradient(to top, #4463a2, #ffffff38);}
+#contact{grid-area: image; background-image: linear-gradient(to top, #4463a2, #ffffff38);}
 footer{grid-area: footer;}
 
 nav ul{
